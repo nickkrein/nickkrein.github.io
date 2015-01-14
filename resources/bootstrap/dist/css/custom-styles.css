@@ -1,9 +1,33 @@
 html {
   background: #1e1e1e;
 }
+
 body {
-  background: #f7f7f7;
+  background: #fff;
   font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: .3px;
+}
+
+
+/* links */
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: #1e1e1e;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:active,
+a:hover {
+  color: #18bc9c;
 }
 
 
@@ -18,9 +42,7 @@ body {
 /* home */
 
 header {
-/*   background-image: url("http://i.imgur.com/hoOhNri.jpg?2");
-color: #fff;
-background-color: #000; */
+  margin-bottom: 100px;
 }
 
 #logo {
@@ -32,7 +54,7 @@ background-color: #000; */
   /* sfont-weight: 100; */
   letter-spacing: .5px;
   text-transform: uppercase;
-  padding-top: 50px;
+  padding-top: 40px;
   padding-bottom: 50px;
 }
 
@@ -45,9 +67,11 @@ background-color: #000; */
 
 }
 
-.intro-text {
+.blurb-text {
+  text-align: center;
+  padding-bottom: 15px;
+  font-style: italic;
 
-  background: #f7f7f7;
 }
 
 
@@ -60,12 +84,20 @@ background-color: #000; */
 } */
 
 .fom-btn {
-  background-color: #18bc9c;
+/*   background-color: #18bc9c; */
   display: block;
   clear: both;
   margin: 0 auto;
   padding: 15px;
-  margin-top: 20px;
+  color: #fff;
+}
+
+.fom-btn-2 {
+  margin-top: 29px;
+}
+
+.fom-btn-3 {
+  margin-top: 29px;
 }
 
 h1 {
@@ -78,13 +110,14 @@ h1 {
 .venue {text-align: center;}
 
 .row {
-  padding-bottom: 50px;
+/*   padding-bottom: 50px; */
 /*   border-bottom: 4px solid #ddd; */
 }
 
 #footer-main {
-  margin-top: 2em;
-  padding-top: 2em;
+  margin-top: 100px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   background: #1e1e1e;
 }
 
@@ -114,4 +147,14 @@ h1 {
 
 .lessons {
   float: right;
+}
+
+.video-wrap-main {
+  margin-bottom: 40px;
+}
+
+.video-wrap-other {
+
+  padding: 1em;
+
 }
